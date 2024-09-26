@@ -1,0 +1,231 @@
+body {
+  background: white;
+  transform: scale(0.4);
+}
+
+#cap {
+  background: #FF8240;
+  width: 920px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  margin: 20px -260px;
+  border-radius: 20px;
+  opacity: 1;
+  z-index: 0;
+}
+
+#logo {
+  z-index: 2;
+  position: absolute;
+  border-radius: 20px;
+  margin: 20px -260px;
+}
+
+#card_espresso {
+  background: #A63A00;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  margin: 270px -260px;
+  border-radius: 50px;
+  opacity: 1;
+  z-index: 0;
+}
+
+#card_cappussino_img {
+  z-index: 11;
+  position: absolute;
+  margin: 370px 330px;
+  width: 200px;
+  height: 200px;
+}
+
+#card_cappussino {
+  background: #A63A00;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  margin: 270px 210px;
+  border-radius: 50px;
+  opacity: 1;
+  z-index: 0;
+}
+
+#plus_cappussino_block {
+  background: #949594;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px 270px;
+  border-radius: 10px;
+  border: 5px solid white;
+  opacity: 1;
+  z-index: 5;
+}
+
+#plus_cappussino_block_invizes {
+  background: #FF5600;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px 270px;
+  border-radius: 10px;
+  border: 5px solid #FF8240;
+  opacity: 0;
+  z-index: 12;
+}
+
+#minus_cappussino_block_invizes {
+  background: #FF5600;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px 495px;
+  border-radius: 10px;
+  border: 5px solid #FF8240;
+  opacity: 0;
+  z-index: 12;
+}
+
+#minus_cappussino_block {
+  background: #949594;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px 495px;
+  border-radius: 10px;
+  border: 5px solid white;
+  opacity: 1;
+  z-index: 6;
+}
+
+#card_espresso_img {
+  z-index: 2;
+  position: absolute;
+  margin: 360px -105px;
+  width: 130px;
+  height: 241px;
+}
+
+#text_espresso {
+  position: absolute;
+  z-index: 3;
+  font-size: 60px;
+  margin: 270px -180px;
+  color: white;
+}
+
+#text_cappuccino {
+  position: absolute;
+  z-index: 3;
+  font-size: 60px;
+  margin: 270px 300px;
+  color: white;
+}
+
+#plus_espresso_block {
+  background: #949594;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px -200px;
+  border-radius: 10px;
+  border: 5px solid white;
+  opacity: 1;
+  z-index: 5;
+}
+
+#plus_espresso {
+  font-size: 100px;
+  position: absolute;
+  z-index: 6;
+  margin: 593px -177px;
+  color: white;
+}
+
+#plus_espresso_block_invizes {
+  background: #FF5600;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px -200px;
+  border-radius: 10px;
+  border: 5px solid #FF8240;
+  opacity: 0;
+  z-index: 7;
+}
+
+#click_espresso {
+  font-size: 100px;
+  position: absolute;
+  z-index: 7;
+  margin: 593px -65px;
+  color: white;
+}
+
+#click_cappussino {
+  font-size: 100px;
+  position: absolute;
+  z-index: 7;
+  margin: 593px 405px;
+  color: white;
+}
+
+#minus_espresso_block {
+  background: #949594;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px 20px; /*20px отступ*/
+  border-radius: 10px;
+  border: 5px solid white;
+  opacity: 1;
+  z-index: 5;
+}
+
+#minus_espresso {
+  font-size: 103px;
+  position: absolute;
+  z-index: 7;
+  margin: 538px 45px;
+  color: white;
+}
+
+#plus_cappussino {
+  font-size: 103px;
+  position: absolute;
+  z-index: 7;
+  margin: 590px 293px;
+  color: white;
+}
+
+#minus_cappussino {
+  font-size: 103px;
+  position: absolute;
+  z-index: 7;
+  margin: 538px 520px;
+  color: white;
+}
+
+#minus_espresso_block_invizes {
+  background: #FF5600;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 600px 20px; /*20px отступ*/
+  border-radius: 10px;
+  border: 5px solid #FF8240;
+  opacity: 0;
+  z-index: 8;
+}
+
+#stick_espresso {
+  width: 450px;
+  height: 10px;
+  background: #FF8240;
+  position: absolute;
+  z-index: 10;
+  margin: 355px -260px;
+  opacity: 0;
+}

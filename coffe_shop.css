@@ -9,7 +9,7 @@ body {
   height: 200px;
   display: flex;
   position: absolute;
-  margin: 20px -10px;
+  margin: 20px -100px;
   border-radius: 20px;
   opacity: 1;
   z-index: 0;
